@@ -33,8 +33,6 @@
   18. Features box
 */
 
-
-
 /*
   Navbar
   ------
@@ -49,8 +47,6 @@
   max-height: inherit;
 }
 
-
-
 /*
   Section - Home
   --------------
@@ -59,9 +55,8 @@
 /* Home BG Static (default) */
 
 #home {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
-
 
 /* Home BG Parallax */
 
@@ -69,38 +64,34 @@
   background: url("../images/bg-parallax.jpg");
 }
 
-
 /* Home BG Slideshow */
 
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(1) {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
-  background: url("../images/bg-home-2.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
-  background: url("../images/bg-home-3.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
-
 
 /* Home BG Slider */
 
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(1) {
-  background: url("../images/bg-home-1.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(2) {
-  background: url("../images/bg-home-2.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(3) {
-  background: url("../images/bg-home-3.jpg");
+  background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slideshow .display-table-cell,
 #home-bg-slider .display-table-cell {
   position: relative;
   z-index: 20;
 }
-
-
 
 /*
   Countdown
@@ -147,8 +138,6 @@
   }
 }
 
-
-
 /*
   Intro
   -----
@@ -170,8 +159,6 @@
   background-image: url("../images/intro-3.jpg");
 }
 
-
-
 /*
   Section - Team
   --------------
@@ -180,8 +167,6 @@
 .member-box {
   margin-bottom: 24px;
 }
-
-
 
 /*
   Section - Speakers
@@ -192,19 +177,15 @@
   margin-bottom: 24px;
 }
 
-
-
 /*
   Section - Venue
   ---------------
 */
 
 #venue {
-  background-image: url("../images/bg-venue.jpg");
+  background-image: url("../images/bg-venue.jpeg");
   background-position: center bottom !important;
 }
-
-
 
 /*
   Section - Schedule
@@ -224,7 +205,6 @@
   width: 110px;
 }
 
-
 /* Carousel Schedule */
 
 .carousel-schedule .carousel-cell {
@@ -235,7 +215,6 @@
     width: 50%;
   }
 }
-
 
 /* Timeline */
 
@@ -253,7 +232,7 @@
   background-color: #dfdfdf;
   border-radius: 50%;
   bottom: 0;
-  content: '';
+  content: "";
   display: block;
   height: 8px;
   left: 0;
@@ -268,7 +247,7 @@
   background-color: #ffffff;
   border: 1px solid #989898;
   border-radius: 50%;
-  content: '';
+  content: "";
   display: block;
   height: 12px;
   left: 0;
@@ -289,8 +268,6 @@
   padding: 16px;
 }
 
-
-
 /*
   Milestones
   ----------
@@ -299,8 +276,6 @@
 #milestones {
   background-image: url("../images/bg-milestones.jpg");
 }
-
-
 
 /*
   Section - FAQ
@@ -346,7 +321,7 @@
 }
 .panel-title a:before {
   color: #989898;
-  content: '\f107';
+  content: "\f107";
   display: block;
   font-family: "FontAwesome", sans-serif;
   font-size: 14px;
@@ -356,7 +331,7 @@
   top: 0;
 }
 .panel-title a.collapsed:before {
-  content: '\f105';
+  content: "\f105";
 }
 .panel-title a span {
   margin-right: 4px;
@@ -367,7 +342,6 @@
 .panel-body p {
   max-width: 600px;
 }
-
 
 /* Nav Stacked */
 
@@ -383,8 +357,6 @@
   color: #272727;
   padding: 14px 18px;
 }
-
-
 
 /*
   Section - Ticket
@@ -408,7 +380,6 @@
   height: 75px;
   padding-left: 95px;
 }
-
 
 /* Pricing */
 
@@ -436,7 +407,7 @@
   background-color: #989898;
   border-radius: 50%;
   color: #ffffff;
-  content: '\2713';
+  content: "\2713";
   display: block;
   font-size: 11px;
   left: 0;
@@ -450,8 +421,6 @@
 .pricing ul > li:first-child {
   margin-top: 0;
 }
-
-
 
 /*
   Section - Register
@@ -468,8 +437,6 @@
   height: 120px;
 }
 
-
-
 /*
   Section - Contact
   -----------------
@@ -485,7 +452,6 @@
   }
 }
 
-
 @media (max-width: 991px) {
   .contact-address {
     margin-top: 48px;
@@ -494,28 +460,27 @@
   }
 }
 
-
 /* Google map */
 
 .map {
   position: relative;
-  padding-bottom: 100%;    /* aspect ratio 1:1 */
+  padding-bottom: 100%; /* aspect ratio 1:1 */
   height: 0;
   overflow: hidden;
 }
-@media (min-width:420px) {
+@media (min-width: 420px) {
   .map {
-    padding-bottom: 75%;    /* aspect ratio 3:4 */
+    padding-bottom: 75%; /* aspect ratio 3:4 */
   }
 }
-@media (min-width:540px) {
+@media (min-width: 540px) {
   .map {
-    padding-bottom: 60%;    /* aspect ratio 3:5 */
+    padding-bottom: 60%; /* aspect ratio 3:5 */
   }
 }
-@media (min-width:800px) {
+@media (min-width: 800px) {
   .map {
-    padding-bottom: 75%;    /* aspect ratio 3:4 */
+    padding-bottom: 75%; /* aspect ratio 3:4 */
   }
 }
 .map iframe {
@@ -526,7 +491,6 @@
   width: 100% !important;
   height: 100% !important;
 }
-
 
 /* Forms */
 
@@ -544,13 +508,11 @@
   height: 100% !important;
 }
 #volunteer-form {
-  padding-bottom: 3000px;    /* height */
+  padding-bottom: 3000px; /* height */
 }
 #nominate-speaker-form {
-  padding-bottom: 1950px;    /* height */
+  padding-bottom: 1950px; /* height */
 }
-
-
 
 /*
   Event bottom banner
@@ -575,8 +537,6 @@
     margin: auto;
   }
 }
-
-
 
 /*
   Countdown timer
@@ -608,7 +568,7 @@
   padding-top: 8px;
   align-self: center;
 }
-@media (min-width:420px) {
+@media (min-width: 420px) {
   .countdown-timer .value {
     font-size: 48px;
   }
@@ -616,7 +576,7 @@
     padding-top: 16px;
   }
 }
-@media (min-width:600px) {
+@media (min-width: 600px) {
   .countdown-timer .value {
     font-size: 56px;
   }
@@ -624,7 +584,7 @@
     font-size: 18px;
   }
 }
-@media (min-width:900px) {
+@media (min-width: 900px) {
   .countdown-timer .value {
     font-size: 64px;
   }
@@ -632,8 +592,6 @@
     padding-top: 24px;
   }
 }
-
-
 
 /*
   Footer
@@ -675,8 +633,6 @@
   padding-top: 32px;
 }
 
-
-
 /*
   Responsive images
   -----------------
@@ -684,7 +640,7 @@
 
 .img-wrapper {
   position: relative;
-  padding-bottom: 133.33%;    /* 4:3 aspect ratio */
+  padding-bottom: 133.33%; /* 4:3 aspect ratio */
   overflow: hidden;
   width: 100%;
 }
@@ -695,8 +651,6 @@
   height: 100%;
   margin: auto;
 }
-
-
 
 /*
   Features box
