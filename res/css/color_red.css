@@ -21,7 +21,7 @@
 */
 
 .text-base-color {
-    color: #e62b1e !important;
+    color: #ffed00 !important;
 }
 
 
@@ -40,7 +40,7 @@
 */
 
 .bg-base-color {
-    background-color: #e62b1e !important;
+    background-color: #004dff !important;
 }
 
 
@@ -67,7 +67,7 @@
 */
 
 .btn.btn-base-color {
-    background-color: #e62b1e;
+    background-color: #760787a2;
 }
 .btn.btn-base-color.btn-hover-transparent:hover {
     border-color: #e62b1e;
