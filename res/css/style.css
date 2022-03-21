@@ -70,10 +70,10 @@
   background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(2) {
-  background: url("../images/general-assembly.jpeg");
+  background: url("../images/munx-1.jpg");
 }
 #home-bg-slideshow .bg-slideshow-wrapper .slides > .bg-cover:nth-child(3) {
-  background: url("../images/general-assembly.jpeg");
+  background: url("../images/munx-2.jpg");
 }
 
 /* Home BG Slider */
@@ -82,10 +82,10 @@
   background: url("../images/general-assembly.jpeg");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(2) {
-  background: url("../images/general-assembly.jpeg");
+  background: url("../images/munx-1.jpg");
 }
 #home-bg-slider .bg-slider-wrapper .flickity-slider .bg-cover:nth-child(3) {
-  background: url("../images/general-assembly.jpeg");
+  background: url("../images/munx-2.jpg");
 }
 #home-bg-slideshow .display-table-cell,
 #home-bg-slider .display-table-cell {
